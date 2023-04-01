@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(172, 168, 168); 
+    width: 320px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 25px;
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: rgb(162, 64, 146);*/
+    height: 68vh;
+    width: 68vw;
+    margin: 144px auto;
+    display: flex;
+   justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 32px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 19px;
+    margin-top: 17px;
+}
+
+.buttons{
+    margin-top: 28px;
+}
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(87, 87, 253);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0.3px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color:  rgb(87, 87, 253);
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.divPic img{
+    
+    height: 58vh;
+}
+
+.contactform{
+    font-family:sans-serif;
+    padding: 0 34px;
+    padding-top: 124px;
+    
+
+}
+.contactform h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px 0;
+    
+}
+.contactform form div{
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: brown;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+
+}
+ h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 23px;
+
+}
+.intro h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+ }
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
